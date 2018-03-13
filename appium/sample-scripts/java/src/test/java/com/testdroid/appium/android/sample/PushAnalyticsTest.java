@@ -53,6 +53,5 @@ public class PushAnalyticsTest  extends BaseAndroidTest {
     @Test
     public void mainPageTest() throws IOException, InterruptedException {
         wd.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-        AssertJUnit.assertEquals(1, 1);
     }
 }
